@@ -1,0 +1,17 @@
+[
+    {
+        "name" : "Ted",
+        "image" : "images/ted.jpg",
+        "description" : "Ted is the head of our Mobile Shop. Born in Seattle, graduated at North Seattle College, he opened our shop in 2010. with his son Alex. He is the guy who keeps our prices low and our customers happy."
+    },
+    {
+        "name" : "Tamara",
+        "image" : "images/tamara.png",
+        "description" : "Tamara comes from Serbia, where she graduated at The ICT College of Applied Studies. Tamara is here to keep our website alive and to recomend the best products based on your needs."
+    },
+    {
+        "name" : "Alex",
+        "image" : "images/alex.jpg",
+        "description" : "Alex graduated at North Seattle College, like his father. He is out tech-guy. If you have a problem, his face is the one you want to see. People say that he is too generous with repair cost, but he says he likes to make people happy."
+    }
+]

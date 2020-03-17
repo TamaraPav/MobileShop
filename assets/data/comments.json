@@ -1,0 +1,22 @@
+[
+    {
+        "id" : 1,
+        "name" : "Anna",
+        "comment" : "I had a problem with my Iphone, the Camera App wasn't working, but Alex, the sweetest guy fixed within a minute. I definitely recomend this place!"
+    },
+    {
+        "id" : 2,
+        "name" : "David",
+        "comment" : "I wanted to surprise my girlfriend with a new phone, but I wasn't sure which one would she like. Tamara gave me the best advice, my girlfriend was thrilled!"
+    },
+    {
+        "id" : 3,
+        "name" : "Jake",
+        "comment" : "Proffesional. Quality. Safe buy. Best store in Seattle!"
+    },
+    {
+        "id" : 4,
+        "name" : "Meredith",
+        "comment" : "I had a problem with my headphones, it was a small problem with wire connection and Alex fixed it for free!"
+    }
+]

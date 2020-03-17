@@ -1,0 +1,57 @@
+[
+    {
+        "id" : 1,
+        "category" : "Apple",
+        "type" : "brand"
+    },
+    {
+        "id" : 2,
+        "category" : "Honor",
+        "type" : "brand"
+    },
+    {
+        "id" : 3,
+        "category" : "Huawei",
+        "type" : "brand"
+    },
+    {
+        "id" : 4,
+        "category" : "Samsung" ,
+        "type" : "brand"      
+    },
+    {
+        "id" : 5,
+        "category" : "Xiaomi"  ,
+        "type" : "brand"     
+    },
+    {
+        "id" : 6,
+        "category" : "iOS"  ,
+        "type" : "os"     
+    },
+    {
+        "id" : 7,
+        "category" : "Android"  ,
+        "type" : "os"     
+    },
+    {
+        "id" : 8,
+        "category" : "256"  ,
+        "type" : "memory"     
+    },
+    {
+        "id" : 9,
+        "category" : "128"  ,
+        "type" : "memory"     
+    },
+    {
+        "id" : 10,
+        "category" : "64"  ,
+        "type" : "memory"     
+    },
+    {
+        "id" : 11,
+        "category" : "32"  ,
+        "type" : "memory"     
+    }
+]

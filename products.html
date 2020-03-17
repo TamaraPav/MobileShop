@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Mobile Shop</title>
+        <meta name="description" content="List of products available at our store.">
+        <meta name="keywords" content="phone, samsung, huawei, iphone, xiaomi, honor">
+        <meta name="robots" content="index, follow" />
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Ruda&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6a571d5020.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    
+    
+    </head>
+<body>
+        <div class="container-fluid navbar navbar-expand-sm navbar-dark bg-dark white-text">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-mobile-alt mr-1"></i>Mobile Shop</a>
+    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#meni" aria-controls="meni" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+    
+                <div class="collapse navbar-collapse" id="meni">
+
+                </div>
+    
+        </div>
+
+        <div class="container-fluid p-0">
+           <div class="row m-0 p-0">
+             <div class="col-md-3 col-sm-12 pt-2" id="categories">
+                 <h5 class="pt-5"><a id="brand" class="text-white" href="#">Brand</a></h5>
+                 <ul class="pt-3" id="brend">
+
+                 </ul>
+                  <h5 class="pt-5">OS</h5>
+                    <div id="os" class="pt-4">
+
+                    </div>
+                  <h5 class="pt-5">Memory</h5>
+                    <div id="memory" class="pt-4 pb-4">
+
+                    </div>
+
+             </div>
+             <div class="col-md-9 col-sm-12 pt-2">
+                 <div class="row m-0">
+                     <div class="col-6 p-0 m-0 d-flex flex-row">
+                        <p class="p-1">Sort:</p>
+                        <select id="sort" name="sort" class="custom-select custom-select-sm">
+                            <option value="0">Choose</option>
+                            <option class="sortiraj" data-sort="name" data-order="asc" value="1">Name A-Z</option>
+                            <option class="sortiraj" data-sort="name" data-order="desc" value="2">Name Z-A</option>
+                            <option class="sortiraj" data-sort="price" data-order="asc" value="3">Price low to high</option>
+                            <option class="sortiraj" data-sort="price" data-order="desc" value="4">Price high to low</option>
+                        </select>
+                     </div>                    
+                 </div>
+                <div class="row m-0" id="products">
+
+                </div>
+             </div>
+           </div>
+        </div>
+
+        <div class="container-fluid bg-dark" id="footer">
+            <p class="text-center white-text">Mobile Shop 2020. &copy;</p>
+      </div>
+
+
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="assets/js/ispis.js"></script>
+      <script src="assets/js/main.js"></script>
+    
+
+    
+</body>
+</html>

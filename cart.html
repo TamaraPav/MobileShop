@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Mobile Shop</title>
+        <meta name="description" content="Shopping cart">
+        <meta name="keywords" content="cart, item, price">
+        <meta name="robots" content="index, follow" />
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Ruda&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6a571d5020.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    
+    
+    </head>
+<body>
+        <div class="container-fluid navbar navbar-expand-sm navbar-dark bg-dark white-text">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-mobile-alt mr-1"></i>Mobile Shop</a>
+    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#meni" aria-controls="meni" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+    
+                <div class="collapse navbar-collapse" id="meni">
+
+                </div>
+    
+        </div>
+
+        <div class="container-fluid pt-5 m-0 black" id="cart">
+            <div class="container bg-light">
+                <div class="row">
+                    <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Product</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Qty</th>
+                            <th scope="col">Total</th>
+                            <th scope="col">Remove</th>
+                          </tr>
+                        </thead>
+                        <tbody id="itemsInCart">
+                          
+                        </tbody>
+                      </table>
+                      <div class="ml-auto">
+                          <button id="kupi" class="btn bg-dark text-light m-3" value="Buy">Buy</button>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-dark" id="footer">
+            <p class="text-center white-text">Mobile Shop 2020. &copy;</p>
+      </div>
+
+
+
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="assets/js/ispis.js"></script>
+      <script src="assets/js/main.js"></script>
+      <script src="assets/js/cart.js"></script>
+
+    
+</body>
+</html>

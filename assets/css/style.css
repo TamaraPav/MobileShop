@@ -1,0 +1,110 @@
+body {
+    font-family: 'Ruda', sans-serif;
+}
+h1 {
+    font-size: 3.5rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h1, h2, h3, h4 {
+    text-shadow: 3px 1px 0px black;
+}
+#welcome {
+    background-image: url("../../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:right top;
+    text-align: center;
+    color:white;
+}
+#welcometext {
+    margin: 20px auto;
+    -webkit-text-stroke: 1px #FFF;
+}
+#topProizvodi {
+    background-color: black;
+}
+#us {
+    background-image: url("../../images/office.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color:white;
+    
+}
+#services {
+    background-color:black;
+    color:white;
+}
+#aboutus, #autor, #cart {
+    background-image: url("../../images/office.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color:white;
+}
+#autorimg {
+    margin: 0 auto;
+}
+.blur {
+    backdrop-filter: blur(10px);
+}
+#footer  {
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:0;
+    padding-right:0;
+    height:40px;
+    
+}
+#footer p {
+    margin-bottom:0;
+}
+
+input:focus {
+    border-bottom: 1px solid white !important;
+}
+.error {
+    border: 1px solid red !important;
+}
+.grow { 
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.1); 
+}
+.icons:hover {
+    border-bottom: 1px solid white;
+}
+#categories {
+    background-color: black;
+    color: white;
+}
+
+#cart {
+    min-height:600px;
+}
+
+
+@media only screen and (max-width: 450px) {
+    h1 {
+        font-size:32px;
+    }
+    h2 {
+        font-size:25px;
+    }
+}
+@media only screen and (min-width: 815px) {
+    #welcometext {
+        width:50%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .full {
+        height: 100vh;
+    }
+}
