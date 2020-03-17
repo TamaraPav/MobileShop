@@ -1,38 +1,21 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset>
+
 <url>
-<loc>https://maldivesresortp.000webhostapp.com/index.html</loc>
-<lastmod>2019-7-9</lastmod>
-<changefreq>monthly</changefreq>
-<priority>1.0</priority>
+  <loc>https://tamarapav.github.io/MobileShop/index.html</loc>
+  <lastmod>2020-03-17T17:47:00+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://maldivesresortp.000webhostapp.com/rooms.html</loc>
-<lastmod>2019-7-9</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.9</priority>
+  <loc>https://tamarapav.github.io/MobileShop/products.html</loc>
+  <lastmod>2020-03-17T17:47:00+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://maldivesresortp.000webhostapp.com/activities.html</loc>
-<lastmod>2019-7-9</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
+  <loc>https://tamarapav.github.io/MobileShop/aboutus.html</loc>
+  <lastmod>2020-03-17T17:47:00+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-<url>
-<loc>https://maldivesresortp.000webhostapp.com/gallery.html</loc>
-<lastmod>2019-7-9</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://maldivesresortp.000webhostapp.com/aboutus.html</loc>
-<lastmod>2019-7-9</lastmod>
-<changefreq>yearly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://maldivesresortp.000webhostapp.com/autor.html</loc>
-<lastmod>2019-7-9</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+
+
 </urlset>
