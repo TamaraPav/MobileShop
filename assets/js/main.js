@@ -16,7 +16,7 @@ function checkForm() {
 
     var reName, reEmail, reModel;
 
-    reName = /^[A-Z][a-z]{1,12}(\s[A-Z][a-z]{1,19})+$/;
+    reName = /^[A-Z][a-z]{1,12}(\s[A-Z][a-z]{1,19})*$/;
     reModel = /^[A-Za-z0-9]{2,16}$/;
     reEmail = /^\w+([.-]?[\w\d]+)*@\w+([.-]?[\w]+)*(\.\w{2,4})+$/;
 
