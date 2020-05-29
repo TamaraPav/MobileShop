@@ -10,11 +10,12 @@ h2 {
 h1, h2, h3, h4 {
     text-shadow: 3px 1px 0px black;
 }
-#welcome {
-    background-image: url("../../images/background.jpg");
+#welcome, #us {
+    background-image: url("../../images/office.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:right top;
+    background-position: center;
+    background-attachment: fixed;
     text-align: center;
     color:white;
 }
@@ -24,16 +25,6 @@ h1, h2, h3, h4 {
 }
 #topProizvodi {
     background-color: black;
-}
-#us {
-    background-image: url("../../images/office.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    text-align: center;
-    color:white;
-    
 }
 #services {
     background-color:black;
